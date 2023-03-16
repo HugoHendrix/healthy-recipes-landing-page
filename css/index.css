@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -12,12 +14,53 @@ html {
 
 body {
     font-size: 1.6rem;
+    text-align: center;
     font-family: 'Spectral', serif;
+    background: url("../imagens/background-image.png") no-repeat center/cover;
+    height: 100vh;
+    color: #ebf1fb;
 
-
+    display: grid;
+    place-content: center;
 }
 
 h1 {
     font-family: 'Beth Ellen', cursive;
+    font-weight: 400;
+    font-size: 6.4rem;
+    font: 6.4rem;
+    line-height: 12rem;
 
+}
+
+h1 span {
+    color: #5eead4;
+}
+
+p {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 7.2rem;
+}
+
+a {
+    color: #ebf1fb;
+    padding: 1.6rem 3.2rem; 
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+a:hover,
+.primary-btn { 
+    background: #5eead4;
+    border-radius: 8px;
+    color: #0b0c0e;
+    text-decoration: none;
+    transition: 0.5ms all ease-in-out;
+}
+
+.primary-btn:hover {
+   background-color: aquamarine;
 }
