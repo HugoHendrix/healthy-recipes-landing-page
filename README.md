@@ -8,9 +8,6 @@
 
  Neste artigo, vamos falar sobre o desafio proposto pela Rocketseat, onde vamos criar uma landing page utilizando HTML, CSS e Display Grid para apresentar uma página sobre comida saudável.
 
-## **O que é o desafio Rocketseat?**
-
-O desafio Rocketseat é um projeto que tem como objetivo incentivar o aprendizado de tecnologias web. Neste desafio, a proposta é criar uma landing page com HTML, CSS e Display Grid para apresentar informações sobre comida saudável.
 
 ## **O que é uma landing page?**
 
